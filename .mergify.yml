@@ -1,0 +1,9 @@
+pull_request_rules:
+  - name: Automatic merge
+    conditions:
+      - base=master
+      - "body~=## Commit Message"
+    actions:
+      merge:
+        strict: true
+
