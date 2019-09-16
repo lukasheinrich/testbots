@@ -6,5 +6,4 @@ pull_request_rules:
     actions:
       merge:
         strict: true
-        strict_method: rebase
         method: squash
